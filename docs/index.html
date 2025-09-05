@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Validador de Certificados</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./assets/css/validator.css">
+
+</head>
+<body>
+  <h1 class="titulo">Visualiza tu Certificado</h1>
+    <p class="desc">Ingresá el ID de tu certificado para verificar su validez y ver los enlaces para descargarlo.</p>
+  <div class="row">
+    <input id="id" placeholder="Pega el ID aquí para validarlo" />
+    <button class="btn" onclick="ver()">Verificar</button>
+  </div>
+  <div id="status"></div>
+  <div id="meta" class="row"></div>
+  <div class="actions" id="actions"></div>
+  <pre id="raw"></pre>
+<script src="./assets/js/config.js"></script>
+<script src="./assets/js/validator.js" defer></script>
+
+</body>
+</html>
