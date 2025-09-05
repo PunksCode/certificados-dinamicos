@@ -1,0 +1,17 @@
+{
+  "name": "certificados-dinamicos",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "PunksCode",
+  "scripts": {
+    "dev": "node src/infra/cli.js",
+    "gen:one": "node src/infra/cli.js --one",
+    "build": "echo \"No hay build, es JS puro\""
+  },
+  "dependencies": {
+    "puppeteer": "^24.19.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.3",
+    "uuid": "^11.1.0"
+  }
+}
